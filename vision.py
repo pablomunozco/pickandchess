@@ -532,6 +532,8 @@ def obtener_casillas(tablero):
 
     anc = int(anchura / 8)
     alt = int(altura / 8)
+    
+    object_detect()
 
     for i in range(8):
         for j in range(8):
